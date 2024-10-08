@@ -43,5 +43,5 @@ else
 #endregion
 
 #region BT05
-
+int[] prices = { 7, 1, 5, 3, 6, 4 };
 #endregion

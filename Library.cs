@@ -56,5 +56,15 @@ class Library
         }
         return result.ToArray();
     }
+
+    public static int[] Bai05(int[] list05)
+    {
+        List<int> result = new List<int>();
+        for (int i = 0; i < list05.Length; i++)
+        {
+
+        }
+        return result.ToArray();
+    }
 }
 
