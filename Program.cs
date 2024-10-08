@@ -44,4 +44,5 @@ else
 
 #region BT05
 int[] prices = { 7, 1, 5, 3, 6, 4 };
+Console.WriteLine("Lợi nhuận lớn nhất có thể: " + Library.Bai05(prices));
 #endregion

@@ -57,14 +57,23 @@ class Library
         return result.ToArray();
     }
 
-    public static int[] Bai05(int[] list05)
+    public static int Bai05(int[] list05)
     {
-        List<int> result = new List<int>();
+        int minPrice = int.MaxValue;
+        int result = 0;
         for (int i = 0; i < list05.Length; i++)
         {
+            if (list05[i] < minPrice)
+            {
+                minPrice = list05[i];
+            }
 
+            else if (list05[i] - minPrice > 0)
+            {
+                result = list05[i] - minPrice;
+            }
         }
-        return result.ToArray();
+        return result;
     }
 }
 
